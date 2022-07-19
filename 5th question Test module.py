@@ -44,7 +44,7 @@ for c in range(2,101):
 	if isEmirp(c):
 		print(c,end = " ")
 	
-print("\nMersenne numbers upto 1000 are:")
+print("\nMersenne numbers upto 32 are:")
 for c in range(2,33):
 	if mersennePrime(c):
 		print(c,end = " ")
