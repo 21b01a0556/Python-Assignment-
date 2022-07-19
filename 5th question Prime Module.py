@@ -26,7 +26,7 @@ def mersennePrime(n):
 	
 def printTwinPrime(r):
 	for i in range(2,r+1):
-		for j in range(2,r+1):
-			if isPrime(i) and isPrime(j) and j-i==2:
-				print(i,',',j,'are Twin Primes')
+           j = i+2
+           if isPrime(i) and isPrime(j):
+               print(i,',',j,'are Twin Primes')
 				
