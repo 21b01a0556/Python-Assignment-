@@ -13,10 +13,8 @@ def isPrime(n):
 def isPalindromePrime(n):
 	if not isPrime(n):
 		return False		
-	n = str(n)
-	if n== "":
-		return True
-	return n[0] == n[-1] and isPalindrom(n[1:-1])
+	s = int(str(n)[::-1]
+	return n == s
 
 def isEmirp(n):
 	revn = int(str(n)[::-1])
